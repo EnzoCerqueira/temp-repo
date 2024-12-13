@@ -9,11 +9,11 @@ ssh-add /c/Users/seu-usuario/.ssh/nome-chave
 
 # Iniciando o git
 git init
-git config --global user.name "SEU NOME"
-git config --global user.email "seu-email@email.com"
+git config --global user.name "Enzo Cerqueira"
+git config --global user.email "enzo.cerqueira42@gmail.com"
 git remote add origin git@github.com:CAMINHO-COPIADO-DO-GITHUB-SSH
 
 # Editei
 git add .
 git commit -m 'MENSAGEM'
-git push origin master
+git push origin main
